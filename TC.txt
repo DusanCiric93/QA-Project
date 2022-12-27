@@ -1,0 +1,145 @@
+TC1 :
+
+
+Title: Short Username Error
+
+
+Steps:
+
+
+1.Open Google Chrome
+2.Open Halo Oglasi main page
+3.Accept website cookies
+5.Go to Sign In page
+6.Enter short (2 letter) username in the username input field
+7.Enter correct password in the password input field
+8.Click on sign-in button
+
+
+Expected result: 
+A message pops up saying that the username must have between 3-100 characters / login unsuccessful
+Actual result : As expected
+Pass/Fail : Pass
+
+
+TC2:
+
+
+
+
+Title: Wrong Username or Password Error
+
+
+Steps:
+
+1.Open Google Chrome
+2.Go to https://www.halooglasi.com/
+3.Accept website cookies
+4.Go to Sign In page
+5.Enter valid username in the username input field
+6.Enter invalid password in the password input field
+7.Click on sign in button
+
+
+Expected result: A message pops up saying that your username or password is wrong / login unsuccessful
+Actual result : As expected
+Pass/Fail : Pass
+
+
+TC3:
+
+
+Title: Register User
+
+
+1.Open Google Chrome
+2.Go to https://www.halooglasi.com/
+3.Accept website cookies
+4.Go to Sign In page
+5.Click on Register me button
+6.Choose account type you want to make - Fizicko lice
+7.Enter new username in the username field / username must not contain special characters
+8.Enter email in the email input field
+9.Enter password in the password field
+10.Repeat password
+11. Check newsletter checkbox
+12.Check terms and conditions checkbox
+13.Click on Register Me button
+
+
+Expected result: A message pops up saying that the registration was successful and confirmation email is sent
+Actual result : As expected
+Pass/Fail : Pass
+
+
+
+TC4: Dodaj novi oglas
+
+
+1.Open Google Chrome
+2.Go to https://www.halooglasi.com/
+3.Accept website cookies
+4.Go to Sign In page
+5.Enter valid username in the username input field
+6.Enter valid password in the password input field
+7.Click on Sign In button
+8.Moj profil page opens up 
+9.Click on " Predaj oglas " button
+10.New tab opens up 
+11.Switch to " Postavlajnje oglasa" tab
+12.Click on " Muzika i instrumenti " category button 
+13. Click on " Gitare " subcategory button
+14. Click on " Elektricne gitare " subcategory button
+15. Click on " Dalje" button
+16. Enter name of your product
+17.Select manufacturer of the product
+18.Select condition of the product
+19. Enter the description of the product in the description input field
+20.Enter the price of the product in the price input field
+21.Select currency 
+22.Choose city / location
+23.Enter phone number into phone number input field
+24. Enter different number into the second phone number input field
+25.Enter email into email input field
+26.Click on " Dalje" button
+27.Choose type of ad you want to post ( Premium, Top, Standard)
+28.Check the terms and conditions checkbox
+29.Click on " Predaj oglas" button
+
+
+Expected result : A message pops up saying that your ad has been successfully posted to the website
+Actual result : As expected
+Pass/Fail : Pass
+
+
+
+
+TC5
+
+
+Title: Obrisi oglas
+
+
+1.Open Google Chrome
+2.Go to https://www.halooglasi.com/
+3.Accept website cookies
+4.Go to Sign In page
+5.Enter valid username in the username input field
+6.Enter valid password in the password input field
+7.Click on Sign In button
+8.Moj profil page opens up
+9.Select ad you want to delete
+10.Click on delete button
+11.Click on confirm  pop up button
+12. Close ChromeDriver
+
+
+Expected result : A message pops up saying that your ad has been successfully deleted
+Actual result : As expected
+Pass/Fail : Pass
+
+
+
+
+
+
